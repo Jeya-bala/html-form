@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    h1{
+        text-align: center;color: blueviolet;
+    }
+</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Registration</h1>
+    <form>
+        <fieldset>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname"><br>
+
+    <label for="gender">Gender:</label>
+    <input type="radio"  name="gender" value="male" >
+    <label for="male">male</label>
+    <input type="radio"  name="gender" value="female">
+    <label for="female">female</label>
+    <input type="radio"  name="gender" value="others">
+    <label for="others">others</label><br>
+
+    <label for="dob">Date of birth</label>
+    <input type="date" name="dob" id="dob"><br>
+
+    <label for="mobno">Mobile No:</label>
+    <input type="tel" name="mobno" id="mobno"><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email"><br>
+
+    <label for="Address">Address</label><br>
+    <textarea name="message" cols="20" rows="10"></textarea><br>
+    <label for="Aadhaar">Aadhaar</label>
+    <input type="number" name="Aadhaar" id="Aadhaar"><br>
+    <label for="course">course</label>
+    <input list="course" name="course">
+    <datalist id="course">
+            <option value="FED">
+            <option value="BED">
+            <option value="FUST">
+    </datalist><br>
+
+    <label for="qlf">Qualification</label>
+    <select name="qlf" id="qlf" >
+            <option value="UG">UG</option>
+            <option value="PG" selected>PG</option>]
+
+            
+            <option value="Diplomo">Diplamo</option>
+            <option value="Science">Science</option><br>
+
+    </select>
+    <label for="dept">Degree&Dept</label>
+    <select name="dept" id="dept" >
+            <option value="BE-CSE">BE-CSE</option>
+            <option value="BE-EEE" >BE-EEE</option>
+            <option value="BE-ECE">BE-ECE</option>
+            <option value="Science">Science</option><br>
+
+    </select><br>
+    <label for="myfile">Upload your resume:</label>
+    <input type="file" id="myfile" name="myfile"><br>
+
+    <input type="checkbox" name="ckb1" id="ckb1">
+    <label for="ckb1">I accept all terms and condition</label><br>
+    <input type="checkbox" name="ckb2" id="ckb2">
+    <label for="ckb2">I hereby declare that all statements made in this applications are true</label><br>
+    <input type="button" value="submit">
+    <input type="reset">
+</fieldset>
+</form>
+
+        
+        
+
+
+
+
+
+
+
+    
+</body>
+</html>
